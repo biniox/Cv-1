@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body
+{
+    background-color: #000000;
+    color: white;
+}
+@font-face 
+{
+font-family: Logo;
+src:url(font/BorisBlackBloxx.ttf);
+}
+
+#wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 1000px;
+    height: 600px;
+
+}
+.header
+{
+    font-family: Logo;
+}
+.Section
+{
+
+    float: left;
+    padding: 20px;
+
+    margin-left: 20px;
+
+    
+
+}
+#Personal_Data
+{
+    background: #0d1619;
+    width: 400px;
+    height: 150px;
+}
+#photo
+{
+ padding: 0px;
+  background-color: #a08f8f
+}
+#logo
+{
+ text-align: left;
+ padding-Left: 20px;
+ padding-bottom: 40px;
+ padding-top: 40px;
+ color: #938d8d;
+ font-size: 40px;
+ font-family: Logo;
+}
+
+#Work_experiences
+{
+    margin-top: 10px;
+    width: 623px;
+    height: 200px;
+    background-color: #15404d;
+}
+.box
+{
+
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 200px;
+/*
+    border: 2px solid #7d7def;
+    border-radius: 2px;
+*/
+
+
+}
+
+.box:hover
+{
+    background-color: #27279f;
+    cursor: pointer;
+}
